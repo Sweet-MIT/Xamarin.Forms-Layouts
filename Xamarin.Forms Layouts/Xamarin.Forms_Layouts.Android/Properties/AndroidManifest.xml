@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:installLocation="auto" android:versionName="1.0.0.0" package="com.sweetmit.xamarinformslayouts">
+	<uses-sdk android:minSdkVersion="15" />
+	<application android:label="Xamarin.Forms Layouts"></application>
+</manifest>
