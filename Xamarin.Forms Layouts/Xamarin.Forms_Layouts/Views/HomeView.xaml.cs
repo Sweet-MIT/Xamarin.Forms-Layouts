@@ -1,6 +1,7 @@
-﻿using Xamarin.Forms;
+﻿///
+/// Copyright(c) Sweet MIT.All rights reserved.
+using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-using System.Windows.Input;
 
 namespace Xamarin.Forms_Layouts.Views
 {

@@ -1,4 +1,6 @@
-﻿using System;
+﻿///
+/// Copyright(c) Sweet MIT.All rights reserved.
+using System;
 using Xamarin.Forms;
 using System.Reflection;
 using Xamarin.Forms.Xaml;

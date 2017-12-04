@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
+﻿///
+/// Copyright(c) Sweet MIT.All rights reserved.
 using Xamarin.Forms;
 using Xamarin.Forms_Layouts.Views;
 
@@ -13,7 +10,11 @@ namespace Xamarin.Forms_Layouts
         public App()
         {
             InitializeComponent();
-            MainPage = new NavigationPage(new HomeView());
+
+            NavigationPage navigationPage = new NavigationPage(new HomeView());
+            navigationPage.BarBackgroundColor = Color.FromHex("#7E1335");
+            navigationPage.BarTextColor = Color.White;
+            MainPage = navigationPage;
         }
 
         protected override void OnStart()
